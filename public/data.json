@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create ATS-friendly professional resumes in minutes with smart templates.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "AI suggestions"
+    ],
+    "icon": "📝"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Creator",
+    "description": "Build stunning personal portfolios without coding.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Drag & drop builder",
+      "Responsive design",
+      "Custom domain support",
+      "SEO optimized"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "Job Tracker App",
+    "description": "Track all your job applications in one place.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Application tracking",
+      "Reminder system",
+      "Analytics dashboard",
+      "Cloud sync"
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": 4,
+    "name": "Interview Prep AI",
+    "description": "Practice interview questions with AI feedback.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Mock interviews",
+      "AI feedback",
+      "Question bank",
+      "Performance tracking"
+    ],
+    "icon": "🤖"
+  },
+  {
+    "id": 5,
+    "name": "Code Snippet Library",
+    "description": "Save and organize reusable code snippets.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Cloud storage",
+      "Search system",
+      "Tagging support",
+      "Multi-language support"
+    ],
+    "icon": "💻"
+  },
+  {
+    "id": 6,
+    "name": "Design Kit UI",
+    "description": "Pre-built UI components for fast web development.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "500+ components",
+      "Tailwind ready",
+      "Figma file included",
+      "Responsive layouts"
+    ],
+    "icon": "🧩"
+  },
+  {
+    "id": 7,
+    "name": "E-learning Platform",
+    "description": "Create and sell online courses easily.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Course builder",
+      "Payment integration",
+      "Student dashboard",
+      "Video hosting"
+    ],
+    "icon": "🎓"
+  },
+  {
+    "id": 8,
+    "name": "AI Content Writer",
+    "description": "Generate blogs, ads, and social posts using AI.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "SEO content generation",
+      "Multi-language support",
+      "Plagiarism-free text",
+      "Tone customization"
+    ],
+    "icon": "✍️"
+  },
+  {
+    "id": 10,
+    "name": "Marketing Automation Tool",
+    "description": "Automate email campaigns and marketing workflows.",
+    "price": 59,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Email automation",
+      "CRM integration",
+      "Lead tracking",
+      "Campaign analytics"
+    ],
+    "icon": "🚀"
+  }
+]
