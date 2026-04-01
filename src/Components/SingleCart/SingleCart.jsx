@@ -1,9 +1,11 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const SingleCart = ({Cart,btnSelectedCart,setBtnSelectedCart}) => {
     const {description,features,icon,id,name,period,price,tag,tagType} = Cart;
+    const isSelected = btnSelectedCart.find(item => item.id === Cart.id);
     const handleCart = () => {
-  alert('successfully');
+  toast.success("Buy Now Successfully")
 
   setBtnSelectedCart([...btnSelectedCart, Cart]); 
 };
@@ -39,7 +41,7 @@ const SingleCart = ({Cart,btnSelectedCart,setBtnSelectedCart}) => {
       </li>   
     </ul>
     <div className="mt-6">
-      <button onClick={handleCart} className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] btn-block rounded-full text-white mt-auto">Buy Now</button>
+      <button onClick={handleCart} disabled={isSelected} className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] btn-block rounded-full text-white mt-auto">{isSelected?"Selected":"Buy Now"}</button>
     </div>
   </div>
 </div>

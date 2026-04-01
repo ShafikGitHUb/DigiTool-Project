@@ -46,6 +46,7 @@
 
 // export default SelectedCart;
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const SelectedCart = ({ btnSelectedCart, setBtnSelectedCart }) => {
 
@@ -53,11 +54,14 @@ const SelectedCart = ({ btnSelectedCart, setBtnSelectedCart }) => {
     const handelRemoviebtn = (id) => {
         const updatedCart = btnSelectedCart.filter(item => item.id !== id);
         setBtnSelectedCart(updatedCart);
+        toast.success("Remove Cart Succesfully")
     };
 
 
     const removieAll = () => {
         setBtnSelectedCart([]);
+        toast.success("Removie All Successfully")
+        
     };
 
 
