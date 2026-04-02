@@ -20,6 +20,10 @@ const Banner = () => {
 
           {/* TEXT */}
           <div className='flex-1'>
+         <p className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-base-200 border border-base-300 text-sm">
+  <span className="w-3 h-3 bg-purple-500 rounded-full"></span>
+  <span className="text-purple-600 font-semibold">New: AI-Powered Tools Available</span>
+</p>
             <h1 className="text-5xl font-bold text-6xl">
               Supercharge Your Digital Workflow
             </h1>
